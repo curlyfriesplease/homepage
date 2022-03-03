@@ -93,6 +93,11 @@
   text-decoration: none;
 }
 
+a:link, a:visited{
+  text-decoration: none;
+}
+
+
 @media only screen and (min-width: 600px) {
   #header1 {
     font-size: 8rem;
