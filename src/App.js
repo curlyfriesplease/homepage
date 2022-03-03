@@ -4,13 +4,35 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Hello there</header>
-      <body>
-        <div className="appTile"><h1>app 1 here</h1></div>
-        <div className="appTile"><h1>app 2 here</h1></div>
-        <div className="appTile"><h1>app 3 here</h1></div>
-        <div className="appTile"><h1>app 4 here</h1></div>
-      </body>
+      <header className="App-header">
+        <h1>header</h1>
+      </header>
+      <div id="tileContainer">
+        <div className="appTile" id="predictionsTile">
+          <div id="header1">Guess</div>
+          <div id="header2">to Impress</div>
+        </div>
+        <div className="appTile">
+          <img src="chords.png" alt="Piano Chord Practice Game" />
+          <img
+            className="comingSoon"
+            src="comingsoon.png"
+            alt="Chord practice game coming soon!"
+          />
+        </div>
+        
+        <div className="appTile">
+          <img src="bird.png" alt="Birdbox Livestream" />
+          <img
+            className="comingSoon"
+            src="comingsoon.png"
+            alt="Birdbox Livestream coming soon!"
+          />
+        </div>
+        <div className="appTile">
+          <img src="jmcs_smaller.png" alt="JMCS" />
+        </div>
+      </div>
     </div>
   );
 }
