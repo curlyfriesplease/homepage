@@ -1,24 +1,24 @@
 import logo from "./logo.svg";
 import "./App.css";
+import "./background.scss";
+import "./header.scss";
 
 function App() {
   return (
     <div className="App">
-      <div class="page-bg"></div>
+      <div className="page-bg"></div>
 
-      <div class="animation-wrapper">
-        <div class="particle particle-1"></div>
-        <div class="particle particle-2"></div>
-        <div class="particle particle-3"></div>
-        <div class="particle particle-4"></div>
-      </div>
-
-      <div class="page-wrapper">
-        <h1>CSS Particles</h1>
+      <div className="animation-wrapper">
+        <div className="particle particle-1"></div>
+        <div className="particle particle-2"></div>
+        <div className="particle particle-3"></div>
+        <div className="particle particle-4"></div>
       </div>
 
       <header className="App-header">
-        <h1>header</h1>
+      <div className="title">
+ <h1>mulhern's junkyard</h1>
+</div>
       </header>
       <div id="tileContainer">
         <div className="appTile" id="predictionsTile">
@@ -46,7 +46,6 @@ function App() {
         </div>
         <div className="appTile">
           <a href="https://jmcs.jonmulhern.co.uk">
-            ≈
             <img src="jmcs_smaller.png" alt="JMCS" />
           </a>
         </div>

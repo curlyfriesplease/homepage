@@ -9,17 +9,11 @@
   height: 100%;
   width: 100%;
 
-  background: #2b5876; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    #4e4376,
-    #2b5876
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #4e4376,
-    #2b5876
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #780206;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
 }
 
 .App-header {
@@ -40,6 +34,7 @@
   justify-content: space-evenly;
   align-content: center;
   row-gap: 50px;
+  max-width: 1200px;
 }
 
 .appTile {
@@ -50,6 +45,7 @@
   align-content: center;
   align-items: center;
   text-align: center;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -94,6 +90,7 @@
   font-weight: 700;
   text-shadow: 3px 3px 0px #eb452b, 6px 6px 0px #efa032, 9px 9px 0px #46b59b,
     12px 12px 0px #017e7f, 15px 15px 0px #052939, 18px 18px 0px #c11a2b;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 600px) {
@@ -122,7 +119,3 @@
     font-size: 3rem;
   }
 }
-
-
-/* BACKGROUND ANIMATION */
-
