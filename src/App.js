@@ -22,7 +22,7 @@ function App() {
       </header>
       <div id="tileContainer">
         <div className="appTile" id="predictionsTile">
-          <a href="https://predictions.jonmulhern.co.uk">
+          <a href="predictions.jonmulhern.co.uk">
             <div id="header1">Guess</div>
             <div id="header2">to Impress</div>
           </a>
