@@ -16,9 +16,9 @@ function App() {
       </div>
 
       <header className="App-header">
-      <div className="title">
- <h1>mulhern's junkyard</h1>
-</div>
+        <div className="title">
+          <h1>mulhern's junkyard</h1>
+        </div>
       </header>
       <div id="tileContainer">
         <div className="appTile" id="predictionsTile">
@@ -37,12 +37,9 @@ function App() {
         </div>
 
         <div className="appTile">
-          <img src="bird.png" alt="Birdbox Livestream" />
-          <img
-            className="comingSoon"
-            src="comingsoon.png"
-            alt="Birdbox Livestream coming soon!"
-          />
+          <a href="https://youtube.com/channel/UC0r-PpXIiVJl2lczsqwiJ8w/live">
+            <img src="bird.png" alt="Birdbox Livestream" />
+          </a>
         </div>
         <div className="appTile">
           <a href="https://jmcs.jonmulhern.co.uk">
