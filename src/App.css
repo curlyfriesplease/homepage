@@ -29,7 +29,8 @@
 #tileContainer {
   grid-area: body;
   display: flex;
-  height: 100%;
+  /* height: 100%; */
+  /* width: 95vw; */
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: center;
@@ -51,8 +52,9 @@
 @media only screen and (max-width: 600px) {
   .appTile {
     height: 20vh;
+    width: 90vw;
     margin-top: 50px;
-    max-width: 950vw;
+    max-width: 95vw;
   }
   .appTile img {
     max-width: 80%;
