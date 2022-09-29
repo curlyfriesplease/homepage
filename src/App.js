@@ -21,8 +21,9 @@ function App() {
         </div>
       </header>
       <div id="tileContainer">
-        <div className="appTile" id="predictionsTile">
-          <a href="https://predictions.jonmulhern.co.uk/index">
+        <div className="appTile" id="predictionsTile" onClick={() => window.alert('Coming back soon! This thing was costing £30 a month to host. I will rebuild it before the year is up to one that wont cost a load to run. Give me a text if you want to know how your predictions are doing!')}>
+          {/* <a href="https://predictions.jonmulhern.co.uk/index"> */}
+          <a href='/comingbacksoon.js'>
             <div id="header1">Guess</div>
             <div id="header2">to Impress</div>
           </a>
