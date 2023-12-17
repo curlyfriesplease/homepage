@@ -21,10 +21,32 @@ function App() {
         </div>
       </header>
       <div id="tileContainer">
+
         <div className="appTile" id="predictionsTile">
           <a href="https://predictions.jonmulhern.co.uk/index">
             <div id="header1">Guess</div>
             <div id="header2">to Impress</div>
+          </a>
+        </div>
+        
+        <div className="appTile">
+          <a href="https://www.howoldwasthat.actor">
+            <img
+              src="HOWTA_png_full_size_compressed.png"
+              alt="How Old Was That Actor?"
+            />
+          </a>
+        </div>
+
+        <div className="appTile">
+          <a href="https://jmcs.jonmulhern.co.uk">
+            <img src="jmcs_smaller.png" alt="JMCS" />
+          </a>
+        </div>
+
+        <div className="appTile">
+          <a href="https://youtube.com/channel/UC0r-PpXIiVJl2lczsqwiJ8w/live">
+            <img src="bird.png" alt="Birdbox Livestream" />
           </a>
         </div>
 
@@ -37,26 +59,6 @@ function App() {
           />
         </div>
 
-        <div className="appTile">
-          <a href="https://www.howoldwasthat.actor">
-            <img
-              src="HOWTA_png_full_size_compressed.png"
-              alt="How Old Was That Actor?"
-            />
-          </a>
-        </div>
-
-        <div className="appTile">
-          <a href="https://youtube.com/channel/UC0r-PpXIiVJl2lczsqwiJ8w/live">
-            <img src="bird.png" alt="Birdbox Livestream" />
-          </a>
-        </div>
-
-        <div className="appTile">
-          <a href="https://jmcs.jonmulhern.co.uk">
-            <img src="jmcs_smaller.png" alt="JMCS" />
-          </a>
-        </div>
       </div>
     </div>
   );
